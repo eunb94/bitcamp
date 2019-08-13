@@ -1,15 +1,15 @@
 import java.util.Scanner;
 class WhatName{
     public static void main(String[] args){
-        System.out.println("ÀÌ¸§ ¹¹´Ï?");
+        System.out.println("ì´ë¦„ì´ ë­ì˜ˆìš”?");
         String name = "";
-        // °ªÀ» ÀÔ·Â¹Ş´Â ÁöÁ¡
+        // ê°’ì„ ì…ë ¥ë°›ëŠ” ì§€ì 
         Scanner scanner = new Scanner(System.in);
         name = scanner.next();
-        System.out.println("ÀÌ¸§Àº" + name + "ÀÌ´Ù");
-        System.out.println("¸î»ìÀÌ¿¡¿ä?");
+        System.out.println("ì´ë¦„ì€" + name + "ì´ë‹¤");
+        System.out.println("ëª‡ì‚´ì´ì˜ˆìš”?");
         int age = 0;
         age = scanner.nextInt();
-        System.out.print("³ªÀÌ´Â"+ age + "ÀÔ´Ï´Ù.");
+        System.out.print("ë‚˜ì´ëŠ”"+ age + "ì´ë‹¤.");
     }
 }
